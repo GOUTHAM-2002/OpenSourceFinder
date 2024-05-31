@@ -3,9 +3,6 @@ import os
 from flask import Flask, request, render_template_string
 import requests
 from datetime import datetime, timedelta
-from dotenv import load_dotenv
-
-load_dotenv()
 
 app = Flask(__name__)
 
